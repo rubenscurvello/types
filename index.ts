@@ -13,6 +13,8 @@ import Repository from "./interfaces/repository.interface";
 import Client from "./interfaces/client.interface";
 import ConnectorInterface from "./interfaces/connector.interface";
 import Invoice from "./interfaces/invoice.interface";
+import PaginationInterface from "./interfaces/pagination.interface";
+import RepositoryInterface from "./interfaces/repository.interface";
 
 export {
   ConfigAuthAPI,
@@ -30,4 +32,6 @@ export {
   Client,
   ConnectorInterface,
   Invoice,
+  PaginationInterface,
+  RepositoryInterface,
 };
