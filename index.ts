@@ -5,6 +5,7 @@ import ConfigFTP from "./types/config.ftp.type";
 import ConfigHTTP from "./types/config.http.type";
 import Config from "./types/config.type";
 import FTPInterface from "./interfaces/ftp.interface";
+import CsvOptionsInterface from "./interfaces/csv.interface";
 
 export {
   ConfigAuthAPI,
@@ -14,4 +15,5 @@ export {
   ConfigHTTP,
   Config,
   FTPInterface,
+  CsvOptionsInterface,
 };
