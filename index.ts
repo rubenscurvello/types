@@ -6,6 +6,10 @@ import ConfigHTTP from "./types/config.http.type";
 import Config from "./types/config.type";
 import FTPInterface from "./interfaces/ftp.interface";
 import CsvOptionsInterface from "./interfaces/csv.interface";
+import ConfigDatabaseInterface from "./interfaces/config.database.interface";
+import Connector from "./interfaces/connector.interface";
+import DatabasePackage from "./interfaces/database-package.interface";
+import Repository from "./interfaces/repository.interface";
 
 export {
   ConfigAuthAPI,
@@ -16,4 +20,8 @@ export {
   Config,
   FTPInterface,
   CsvOptionsInterface,
+  ConfigDatabaseInterface,
+  Connector,
+  DatabasePackage,
+  Repository,
 };
