@@ -10,6 +10,9 @@ import ConfigDatabaseInterface from "./interfaces/config.database.interface";
 import Connector from "./interfaces/connector.interface";
 import DatabasePackage from "./interfaces/database-package.interface";
 import Repository from "./interfaces/repository.interface";
+import Client from "./interfaces/client.interface";
+import ConnectorInterface from "./interfaces/connector.interface";
+import Invoice from "./interfaces/invoice.interface";
 
 export {
   ConfigAuthAPI,
@@ -24,4 +27,7 @@ export {
   Connector,
   DatabasePackage,
   Repository,
+  Client,
+  ConnectorInterface,
+  Invoice,
 };
